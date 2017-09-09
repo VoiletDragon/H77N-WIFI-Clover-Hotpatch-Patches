@@ -14,10 +14,10 @@ Added fix for No Audio after Sleep fixed by CodecCommander and pinconfigs which 
 
 iGPU is now controlled via SSDT-IGPU thats been added to SSDT-Hack. No need to use Clovers Graphics Injection. 
 
-Added correct Capri Frame Buffer Patch to KextToPatch in Config. Only Applies to users that use IGPU. Pair SSDT-Hack with post_install_HD4000.plist. Only added patched for HDMI Port not DVI Port. Users will need to contact me via TonyMacx86 regarding correct Patch.
+Added correct Capri Frame Buffer Patch to KextToPatch in Config. Only Applies to users that use IGPU. Pair SSDT-Hack with post_install_HD4000.plist. Only added patched for HDMI Port not DVI Port. Users will need to contact me.
 
 Added support for Dedicated Graphics. Have not tested Patches with Dedicated Graphics. For users with Dedicated Graphics Pair SSDT-GFX0 with post_install_nvidia_graphics.plist or post_install_nvidia_graphics_nvidiaweb.plist.
-Users with Dedicated Graphics will need to contact me if any problems. via TonyMacx86.
+Users with Dedicated Graphics will need to contact me if any problems.
 
 EC Controller has been added to SSDT-Hack & SSDT-GFX0 needed to fix USB Power in macOS 10.12+.
 
